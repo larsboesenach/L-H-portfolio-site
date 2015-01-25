@@ -1,0 +1,9 @@
+/*
+
+	Main SCSS file that you use to import all the separate modules and then compile them to the css file
+
+*/
+@import url("modules/variables");
+@import url("modules/header");
+
+/*# sourceMappingURL=main.css.map */
