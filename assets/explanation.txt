@@ -1,0 +1,30 @@
+the design is designed 1100px width.
+the border around the website is 10-15px ( I like both ).
+the background/border goes from light blue to dark blue.
+
+colours:
+light blue = #3D95C5
+dark blue = #3D5897
+text is #FFF and #000
+
+typography
+font = open sans
+
+menu:
+Bold - 18pt
+
+MEET and subline
+Bold - 26pt
+the line under MEET is 5pt
+
+LARS & HANSJAN
+Extrabold - 86pt
+
+WE LOVE TO CREATE EFFECTIVE WEBSITES
+Bold - 63pt (line-height also 63pt)
+
+about text (Loremp Ipsum)
+Regular - 21pt (line-height 46pt)
+
+OUR CLIENTS/ RECENTLY CREATED
+Bold - 20pt but I am not completely happy about these 2 sections yet.
