@@ -1,1 +1,1 @@
-# L-H-portfolio-site
+# L&H-portfolio-site
