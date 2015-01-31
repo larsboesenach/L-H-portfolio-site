@@ -21,9 +21,4 @@
 
 	<!-- Font -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,400italic' rel='stylesheet' type='text/css'>
-</head>
-
-<body>
-	<p>Hoi.</p>
-</body>
-</html>
+	

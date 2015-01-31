@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": ";;;;;;;;;;AAkBA,eAAgB;EACf,KAAK,EAAE,KAAK;EACZ,KAAK,EAPQ,OAAO;;ACbrB,SAAU;EACT,WAAW,EDML,uBAAW;ECLjB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,KAAK;EAEZ,gBAAgB,EDQH,OAAO;ECPpB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;;ACHd,eAAgB;EACf,KAAK,EAAE,2BAA2B;EAClC,MAAM,EAAE,KAAK;EACb,aAAa,EAAE,mBAAmB",
-"sources": ["../scss/modules/_variables.scss","../scss/modules/_header.scss","../scss/modules/_hansjan-css.scss"],
+"mappings": ";;;;;;;;;;;;;;;;;;;;AAkBA,eAAgB;EACf,KAAK,EAAE,KAAK;EACZ,KAAK,EAPQ,OAAO;;ACbrB,SAAU;EACT,WAAW,EDML,uBAAW;ECLjB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,KAAK;EAEZ,gBAAgB,EDQH,OAAO;ECPpB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;;ACEd,UAAW;EACT,MAAM,EAAE,IAAI;;AAEd,UAAW;EACT,UAAU,EAAE,IAAI;;EAEhB,aAAa,EAAE,MAAM;;AAEvB,gBAAiB;EACf,OAAO,EAAE,EAAE;EACX,OAAO,EAAE,KAAK;;AAEhB,8BAA+B;;EAE7B,MAAM,EAAE,KAAK;;AAEf,YAAa;EACX,UAAU,EAAE,KAAK;;ACtBnB,eAAgB;EACf,KAAK,EAAE,2BAA2B;EAClC,MAAM,EAAE,KAAK;EACb,aAAa,EAAE,mBAAmB",
+"sources": ["../scss/modules/_variables.scss","../scss/modules/_header.scss","../scss/modules/_footer.scss","../scss/modules/_hansjan-css.scss"],
 "names": [],
 "file": "main.css"
 }

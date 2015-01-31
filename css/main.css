@@ -1,6 +1,16 @@
 /*
 
 	Main SCSS file that you use to import all the separate modules and then compile them to the css file
+	----------------------------------------------------------------------------------------------------
+	
+	Om alle SCSS te compilen naar de main.css moet je in je Terminal deze code invoegen:
+	
+	1. 	Ga eerst naar de main folder "L-H-portfolio-site"
+	
+	2. 	Typ dan: sass --watch scss/main.scss:css/main.css
+	
+		Door deze command kijkt SASS naar veranderingen in de scss folder, 
+		zodra je een aanpassing maakt aan een file die ge-Import is in de "main.scss" wordt het meteen gecompiled naar de main.css folder.
 
 */
 /**************************************************
@@ -19,6 +29,25 @@
   background-color: #3D95C5;
   width: 200px;
   height: 100px; }
+
+html, body {
+  height: 100%; }
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -100px; }
+
+.page-wrap:after {
+  content: "";
+  display: block; }
+
+.site-footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+  height: 100px; }
+
+.site-footer {
+  background: black; }
 
 .hansjan-is-dik {
   width: 9999999999999999999999999px;
