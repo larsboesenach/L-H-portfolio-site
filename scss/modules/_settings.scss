@@ -11,12 +11,32 @@ $font: 'Open Sans', sans-serif;
 
 // Colors
 $black: 		#212121;
+$blue: 			#3D5897;
 $blue-light: 	#3D95C5;
-$blue-dark: 	#3D5897;
 //----------------------
 
 
-.div-test-extra {
-	width: 200px;
-	color: $blue-light;
+// Settings
+
+p,h1,h2,h3,h4,h5,h6 {
+	color: black;
+	font-family: $font;
+}
+
+a {
+	font-family: $font;
+}
+
+.container {
+	width: 1100px;
+	
+	@media all and (max-width: 1100px) {
+		width: 100%;
+	}
+}
+
+
+.Content-entry {
+	padding: 50px 0;
+	min-height: 250px;// temp style
 }

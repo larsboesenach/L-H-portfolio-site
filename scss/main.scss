@@ -18,10 +18,14 @@
 //	Place the imports in this 
 //----------------------------
 
-@import "modules/variables";
+@import "modules/settings";
+
+@import "modules/navigation";
 
 @import "modules/header";
 
+@import "modules/homepage";
+
 @import "modules/footer";
 
-@import "modules/hansjan-css";
+//----------------------------

@@ -18,17 +18,87 @@
 	In this file we place all the Variables ;)
 
 **************************************************/
-.div-test-extra {
-  width: 200px;
-  color: #3D95C5; }
-
-.test-div {
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+p, h1, h2, h3, h4, h5, h6 {
   color: black;
-  background-color: #3D95C5;
-  width: 200px;
-  height: 100px; }
+  font-family: "Open Sans", sans-serif; }
+
+a {
+  font-family: "Open Sans", sans-serif; }
+
+.container {
+  width: 1100px; }
+  @media all and (max-width: 1100px) {
+    .container {
+      width: 100%; } }
+
+.Content-entry {
+  padding: 50px 0;
+  min-height: 250px; }
+
+.Nav-wrap .Nav-logo {
+  display: block;
+  float: left; }
+  .Nav-wrap .Nav-logo img {
+    max-height: 50px; }
+.Nav-wrap .Navigation {
+  display: block;
+  float: right; }
+  .Nav-wrap .Navigation ul.menu-menu li.menu-item {
+    text-align: left;
+    display: inline-block;
+    padding-left: 18px; }
+    .Nav-wrap .Navigation ul.menu-menu li.menu-item a {
+      color: black;
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      -webkit-transition: all 0.2s ease;
+      -moz-transition: all 0.2s ease;
+      -o-transition: all 0.2s ease; }
+      .Nav-wrap .Navigation ul.menu-menu li.menu-item a:hover {
+        text-decoration: none;
+        color: #3D95C5; }
+
+.Header-outer {
+  padding: 10px 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3D95C5), color-stop(1, #3D5897));
+  background-image: -o-linear-gradient(bottom, #3D95C5 0%, #3D5897 100%);
+  background-image: -moz-linear-gradient(bottom, #3D95C5 0%, #3D5897 100%);
+  background-image: -webkit-linear-gradient(bottom, #3D95C5 0%, #3D5897 100%);
+  background-image: -ms-linear-gradient(bottom, #3D95C5 0%, #3D5897 100%);
+  background-image: linear-gradient(to bottom, #3D95C5 0%, #3D5897 100%); }
+  .Header-outer .container {
+    padding: 0 10px; }
+  .Header-outer .Header-inner {
+    background-color: white;
+    padding: 20px;
+    height: auto;
+    min-height: 400px; }
+
+.Header-text {
+  display: block;
+  margin-top: 150px;
+  text-align: center; }
+  .Header-text p {
+    font-weight: 700;
+    text-transform: uppercase; }
+  .Header-text .meet {
+    font-size: 30px;
+    display: inline-block;
+    border-bottom: 5px solid black; }
+  .Header-text .names {
+    font-size: 80px;
+    font-weight: 800; }
+  .Header-text .slogan {
+    font-size: 25px; }
+  .Header-text .arrow {
+    display: block;
+    margin: 0 auto;
+    padding: 50px 0; }
+
+.Homepage .Content-entry {
+  background-color: #3D5897; }
 
 html, body {
   height: 100%; }
@@ -48,10 +118,5 @@ html, body {
 
 .site-footer {
   background: black; }
-
-.hansjan-is-dik {
-  width: 9999999999999999999999999px;
-  height: 192px;
-  border-radius: 99999999999999999px; }
 
 /*# sourceMappingURL=main.css.map */

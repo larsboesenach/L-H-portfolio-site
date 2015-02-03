@@ -1,0 +1,41 @@
+.Nav-wrap {
+	.Nav-logo {
+		display: block;
+		float: left;
+	
+		img {
+			max-height: 50px;
+		}
+	}// nav-logo
+
+
+	.Navigation {
+		display: block;
+		float: right;
+		
+		ul.menu-menu {
+			li.menu-item {
+				text-align: left;
+				display: inline-block;
+				padding-left: 18px;
+				
+				a {
+					color: black;
+					font-size: 17px;
+					font-weight: 700;
+					letter-spacing: 0.5px;
+					text-transform: uppercase;
+					
+					-webkit-transition:all 0.2s ease;
+					-moz-transition:all 0.2s ease;
+					-o-transition:all 0.2s ease;
+					
+					&:hover {
+						text-decoration: none;
+						color: $blue-light;	
+					}
+				}// a
+			}// li
+		}// ul
+	}// Navigation
+}// nav-wrap

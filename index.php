@@ -8,18 +8,19 @@
 <body>
 
 <div class="page-wrap">
-	
+<div class="Homepage">
 <!-- ------------------ -->
-<?php include('includes/home-navigation-header.php'); ?>
+<?php include('includes/home-header.php'); ?>
 <!-- ------------------ -->
 	
 <div class="Content-entry">
 	<div class="container">
 
-		<p>Hoi. Dit is de homepage :D</p>
+
 
 	</div><!-- container -->
 </div><!-- Content-entry -->
 
+</div><!-- Homepage -->
 <!-- ---------------------- -->
 <?php include('footer.php'); ?>

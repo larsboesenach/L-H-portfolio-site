@@ -1,9 +1,59 @@
-.test-div {
-	font-family: $font;
-	font-size: 18px;
-	color: black;
+.Header-outer {
+	padding: 10px 0;		
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #3D95C5),
+		color-stop(1, #3D5897)
+	);
+	background-image: -o-linear-gradient(bottom, #3D95C5 0%, #3D5897 100%);
+	background-image: -moz-linear-gradient(bottom, #3D95C5 0%, #3D5897 100%);
+	background-image: -webkit-linear-gradient(bottom, #3D95C5 0%, #3D5897 100%);
+	background-image: -ms-linear-gradient(bottom, #3D95C5 0%, #3D5897 100%);
+	background-image: linear-gradient(to bottom, #3D95C5 0%, #3D5897 100%);
 	
-	background-color: $blue-light;
-	width: 200px;
-	height: 100px;
-}
+	.container {
+		padding: 0 10px;
+	}
+	.Header-inner {
+		background-color: white;
+		padding: 20px;
+		height: auto;
+		min-height: 400px;
+	}// inner
+}// outer
+
+
+.Header-text {// located inside "Header-inner"
+	display: block;
+	margin-top: 150px;
+	text-align: center;
+
+	p {
+		font-weight: 700;
+		text-transform: uppercase;
+	}	
+	
+	.meet {
+		font-size: 30px;
+		display: inline-block;
+		border-bottom: 5px solid black;
+	}
+	
+	.names {
+		font-size: 80px;
+		font-weight: 800;
+	}
+	
+	.slogan {
+		font-size: 25px;
+	}
+	
+	.arrow {
+		display: block;
+		margin: 0 auto;
+		padding: 50px 0;
+	}
+}// Header-text
+
